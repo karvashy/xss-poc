@@ -21,7 +21,7 @@ fetch("http://127.0.0.1:9000/view/9b77c996-8a3b-42b2-88af-4ff19b20de47").then((r
 
 formData.append("upload", file);
 
-fetch("https://upload.tawk.to/upload/visitor-chat/visitor?handle=9df97b0f680e247fca865750cb241fadc207db30&visitorSessionId=62206c3f73923aaa65743347",{
+fetch("https://upload.tawk.to/upload/page/agent?handle=2877ac153424cdd462c653127eaa993a5f483ca0&pageId=6220693e1ffac05b1d7cb5f1&agentSessionId=62206769694e920ad4a046da",{
         method: 'POST',
         body: formData
     });

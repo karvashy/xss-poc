@@ -1,5 +1,3 @@
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -9,8 +7,6 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
-</script>
-<!--End of Tawk.to Script-->
 fetch("http://127.0.0.1:9000/view/9b77c996-8a3b-42b2-88af-4ff19b20de47").then((res) => {
     return res.text();
 }).then(data => {
